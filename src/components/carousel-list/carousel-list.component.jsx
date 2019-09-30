@@ -4,7 +4,7 @@ import {CarouselItem} from '../carousel-item/carousel-item.component'
 
 export  const CarouselList = ({items}) => {
     const [selectedIndex, setSelectedIndex] = React.useState(0);
-    console.log(items);
+    // console.log(items);
     if(items!== undefined)
     return(
         <ItemsCarousel 

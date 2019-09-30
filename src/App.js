@@ -5,7 +5,7 @@ import MyApp from './components/app/app.component'
 import './App.css';
 
 function App() {
-  console.log(process.env.REACT_APP_MOVIEDB_API_KEY);
+  // console.log(process.env.REACT_APP_MOVIEDB_API_KEY);
   return (
     <BrowserRouter>
       <MyApp/>
