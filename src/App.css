@@ -20,3 +20,11 @@
 .App-link {
   color: #09d3ac;
 }
+body{
+  background-blend-mode: lighten;
+  background-image: url(https://source.unsplash.com/1600x900/?movie);
+  background-color: rgba(255,255,255,0.6);
+}
+.not-ready{
+  cursor: not-allowed
+}
