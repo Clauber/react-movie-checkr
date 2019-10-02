@@ -8,7 +8,7 @@ export const CarouselItem = ({item}) => {
                     <h5 className="card-title">{item.original_title} ({item.release_date.substring(0,4)})</h5>
                     <p className="card-text">{`${item.overview}`.length > 90 ? `${item.overview}`.substring(0,87)+`...` :
                      `${item.overview}`}</p>
-                    <a href="#" className="btn btn-primary not-ready" onClick={(e)=>{e.preventDefault()}}>Read More</a>
+                    <a href={`/movie/${item.id}`} className="btn btn-primary">Read More</a>
                 </div>
                 </div>
     )
