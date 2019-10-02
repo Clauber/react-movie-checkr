@@ -3,7 +3,7 @@ import './search-box.style.scss'
 
 export const SearchBox = ({placeholder, onChange, value}) =>(
     <div className="search-box">
-        <input type="Search" placeholder={placeholder} onChange={onChange} value={value} className="search not-ready"/>
+        <input type="Search" placeholder={placeholder} onChange={onChange} value={value} className="search"/>
     </div>
     
 )
