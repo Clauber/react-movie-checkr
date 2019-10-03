@@ -2,6 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import {SearchBox} from'../search-box/search-box.component'
 import {CarouselList} from '../carousel-list/carousel-list.component'
+import {withRouter} from 'react-router-dom'
 import './app.style.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -94,4 +95,4 @@ class App extends React.Component{
     }
 }
 
-export default App
+export default withRouter(App)

@@ -19,9 +19,9 @@ export  const CarouselList = ({items}) => {
             firstAndLastGutter={false}
             activeItemIndex={selectedIndex}
             requestToChangeActive={value => setSelectedIndex(value)}
-            rightChevron={'>'}
-            leftChevron={'<'}>
-                {items.map(x=> <CarouselItem item={x}/>)}
+            rightChevron={<button className="btn btn-primary">{'>'}</button>}
+            leftChevron={<button className="btn btn-primary">{'<'}</button>}>
+                {items.map(x=> <CarouselItem item={x} key={x.id}/>)}
         </ItemsCarousel>
     )
     else
